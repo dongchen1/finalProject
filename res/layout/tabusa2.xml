@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/imgMarlin"
+        android:layout_width="220dp"
+        android:layout_height="435dp"
+        android:src="@drawable/empirestatesbuliding1" />
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="30dp"
+                android:text="NEW YORK CITY TRIP"
+                android:textSize="24sp"
+                android:typeface="serif" />
+	
+        </TableRow>        
+
+    	<TableRow
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" >
+
+    	    <View
+    	        android:layout_width="match_parent"
+    	        android:layout_height="80dp" />
+
+    	    <TextView
+    	        android:id="@+id/txtDescription"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="left"
+    	        android:padding="20dp"
+    	        android:text="NEW YORK IS THE BIGGEST CITY IN UNITED STATES OF AMERICA. THERE ARE LOT OF GREAT BULIDING. SUCH AS EMPIRE STATE BUILDING, TOP OF THE ROCK, METEROPOLITAN MUSEUM OF ART AND SO ON."
+      	        android:textSize="20sp" />
+
+    	</TableRow>
+    	
+    	<TableRow
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" >
+
+    	    <View
+    	        android:layout_width="match_parent"
+    	        android:layout_height="80dp" />
+
+    	    <TextView
+    	        android:id="@+id/txtAddress"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center"
+    	        android:padding="15dp"
+    	        android:text="440, 42 STREET, +888-888-8888"
+    	        android:textSize="20sp" />
+
+    	</TableRow>
+   
+        <TableRow>
+            <View android:layout_height="80dp"/>
+            <Button
+            android:id="@+id/butDate"
+            android:layout_width="100dp"
+            android:padding="15dp"
+            android:text="Reserve a nice time about your trip! "
+            android:textSize="30sp"/>	
+        </TableRow>        
+    	<TableRow>
+    	    <View android:layout_height="80dp"/>
+    	    <TextView
+    	    android:id="@+id/txtReservation"   
+            android:layout_gravity="center"
+            android:padding="5dp"
+			android:textSize="30sp"/>
+    	</TableRow>
+    </TableLayout>
+
+</LinearLayout>
+    

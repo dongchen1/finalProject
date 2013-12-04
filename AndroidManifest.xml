@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/world07"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.finalproject.MainActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second"></activity>
+        <activity android:name=".NorthAmerica"></activity>
+        <activity android:name=".America"></activity>
+        <activity android:name=".TabUsa1"></activity>
+        <activity android:name=".TabUsa2"></activity>
+        <activity android:name=".TabAgt1"></activity>
+        <activity android:name=".TabCA1"></activity>
+        <activity android:name=".TabCa2"></activity>
+        <activity android:name=".Africa"></activity>
+        <activity android:name=".Argentina"></activity>
+        <activity android:name=".TabAgt2"></activity>
+        <activity android:name=".Canada"></activity>
+        <activity android:name=".Kenya"></activity>
+        <activity android:name=".SouthAfrica"></activity>
+        <activity android:name=".Eroupe"></activity>
+        <activity android:name=".Asia"></activity>
+        <activity android:name=".TabChina1"></activity>
+        <activity android:name=".TabChina2"></activity>
+        <activity android:name=".China"></activity>
+        <activity android:name=".Maldives"></activity>
+        <activity android:name=".UK"></activity>
+        <activity android:name=".FR"></activity>
+    </application>
+
+</manifest>

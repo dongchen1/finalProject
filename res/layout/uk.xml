@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgMarlin"
+        android:layout_width="220dp"
+        android:layout_height="400dp"
+        android:src="@drawable/london" />
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#33FF33"
+                android:padding="50dp"
+                android:text="London"
+                android:textSize="44sp"
+                android:typeface="serif" />
+	
+        </TableRow>        
+
+    	<TableRow
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" >
+
+    	    <View
+    	        android:layout_width="match_parent"
+    	        android:layout_height="80dp" />
+
+    	    <TextView
+    	        android:id="@+id/txtDescription"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="left"
+    	        android:padding="20dp"
+    	        android:text="London Listeni/ˈlʌndən/ is the capital city of England and of the United Kingdom. It is the most populous region, urban zone and metropolitan area in the United Kingdom. Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium."
+    	        android:textSize="20sp" />
+
+    	</TableRow>
+   
+        <TableRow>
+            <View android:layout_height="80dp"/>
+            <Button
+            android:id="@+id/butDate"
+            android:layout_width="100dp"
+            android:padding="15dp"
+            android:text="Reserve a nice time about your trip!"
+            android:textSize="30sp"/>	
+        </TableRow>        
+    	<TableRow>
+    	    <View android:layout_height="80dp"/>
+    	    <TextView
+    	    android:id="@+id/txtReservation"   
+            android:layout_gravity="center"
+            android:padding="5dp"
+			android:textSize="30sp"/>
+    	</TableRow>
+    </TableLayout>
+    
+    
+</LinearLayout>

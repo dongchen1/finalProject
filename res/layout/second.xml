@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.finalproject.IrregularButton
+        android:id="@+id/asia"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_alignBaseline="@+id/europe"
+        android:layout_alignBottom="@+id/europe"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="58dp"
+        android:background="@drawable/asiamap" />
+
+    <com.example.finalproject.IrregularButton
+        android:id="@+id/africa"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_above="@+id/asia"
+        android:layout_alignLeft="@+id/asia"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/africa" />
+    
+
+    <com.example.finalproject.IrregularButton
+        android:id="@+id/europe"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="166dp"
+        android:layout_marginRight="37dp"
+        android:layout_toLeftOf="@+id/asia"
+        android:background="@drawable/europemap" />
+
+    <com.example.finalproject.IrregularButton
+        android:id="@+id/northamerica"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_alignBaseline="@+id/africa"
+        android:layout_alignBottom="@+id/africa"
+        android:layout_alignLeft="@+id/europe"
+        android:background="@drawable/north_american" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/asia"
+        android:layout_marginTop="33dp"
+        android:text="Europe"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/northamerica"
+        android:layout_alignRight="@+id/northamerica"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="33dp"
+        android:text="American"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/africa"
+        android:layout_marginLeft="60dp"
+        android:text="Africa"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/textView3"
+        android:text="Asia"
+        android:textSize="35sp" />
+
+</RelativeLayout>

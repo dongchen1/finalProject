@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     
+    <TextView 
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Argentina Listeni/ˌɑrdʒənˈtiːnə/, officially the Argentine Republic (Spanish: República Argentina [reˈpuβlika aɾxenˈtina]), is a federal republic located in southeastern South America. Covering most of the Southern Cone, it is bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the Atlantic Ocean to the east, Chile to the west and the waters of the Drake Passage to the south.With a mainland area of 2,780,400 km2 (1,073,500 sq mi), Argentina is the eighth-largest country in the world, the second largest in Latin America and the largest among Spanish-speaking nations. Argentina claims sovereignty over part of Antarctica, the Falkland Islands (Spanish: Islas Malvinas), South Georgia and the South Sandwich Islands.A historical and current middle power and a prominent Latin Americanand Southern Cone regional power, Argentina is one of the G-15 and G-20 major economies and Latin America's third-largest.[18] It is also a founding member of the United Nations, WBG, WTO, OAS, Mercosur, UNASUR, CELAC and OEI. Because of its stability, market size and increasing share of the high-tech sector,Argentina is classified by investors as a middle emerging economy with a very high rating on Human Development Index.The earliest recorded human presence in the area now known as Argentina is dated from the Paleolithic period.The Spanish colonization began in 1512. Argentina rose as the successor state of the Viceroyalty of the Río de la Plata, a Spanish overseas colony founded in 1776. The declaration and fight for independence (1810–1818) was followed by an extended civil war that lasted until 1861, which ended with the country's reorganization as a federation of provinces with Buenos Aires as its capital city. During the last two thirds of the 20th century Argentina faced several military coups and political instability, along with periodic economic crisis that restrained its full development."
+        android:textSize="18sp"
+        android:paddingTop="20sp"
+        android:paddingLeft="35sp"
+        android:paddingRight="35sp"
+        android:paddingBottom="60sp"
+    />
+  
+
+</LinearLayout>
